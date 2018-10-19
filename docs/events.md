@@ -45,6 +45,9 @@ then that argument is made available in `ctx.gameover`.
 After the game is over, further state changes to the game
 (via a move or event) are not possible.
 
+This event is disabled by default. To enable this event,
+pass `endGame: true` inside your `flow` section
+
 ##### setActionPlayers
 
 This changes `ctx.actionPlayers` to the provided argument.
